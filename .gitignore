@@ -4,3 +4,24 @@
 # When configure fails, SCons outputs these
 config.log
 .sconf_temp
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# ---
+
+# Patched app.
+nwmain.app
+
+# Emacs.
+.dir-locals.el
+
+/typings/
